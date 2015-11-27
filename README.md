@@ -1,64 +1,92 @@
-# Computational Economics Syllabus
+# ScPo-CompEcon Syllabus
 
-* **Course:** [link to course](http://deadlink.com)
+* **Course:** Computational Economics for PhDs
 * **Teacher:** Florian Oswald, [florian.oswald@sciencespo.fr](mailto:florian.oswald@sciencespo.fr)
+* **Classes:** Bi-weekly Friday 14:45-16:45, starting 29 of January, ending 8 of April
 
 ## Course Description
 
-2h sessions bi-weekly on Computational Economics.
+This is a course for PhD students at the [Department of Economics at Sciences Po](http://econ.sciences-po.fr) in Computational Economics. 
+
+## Course Overview
+
+In this course you will learn about some commonly used methods in Computational Economics. These methods are being used in all fields of Economics. The course has a clear focus on applying what you learn. We will cover the theoretical concepts that underlie each topic, but you should expect a fair amount of *hands on* action required on your behalf. In the words of the great [Che-Lin Su](https://bfi.uchicago.edu/people/che-lin-su):
+
+> Doing Computation is the only way to learn Computation. Doing Computation is the only way to learn Computation. Doing Computation is the only way to learn Computation.
+
+True to that motto, there will be a homework associated to each session. There will also be a term paper. It will be helpful to bring a laptop to the sessions if you have one.
+
+Topics will be demonstrated through live-code examples/slides, available at [ScPo-CompEcon.github.io/slides](http://ScPo-CompEcon.github.io/slides).  
 
 
 ## Prerequisites
 
-
-## Course Overview
-
-In this course you will learn about some commonly used methods in Computational Economics. The course has a clear focus on applying the methods you learn. We will cover the theoretical concepts that underlie each topic, but you should expect a fair amount of *hands on* action required on your behalf. To cite [Che-Lin Su](https://bfi.uchicago.edu/people/che-lin-su):
-
-> Doing Computation is the only way to learn Computation. Doing Computation is the only way to learn Computation. Doing Computation is the only way to learn Computation.
-
-There will be a homework for each session.
-
-There will be a term paper.
-
-You should bring a laptop to each session if you have one.
-
-Topics will be demonstrated through live-code examples/slides, available at [advanced-js.github.io/deck](http://advanced-js.github.io/deck/).  Additional exercises will completed in-class.
+* No previous programming experience is required. 
+* Some experience with the [Unix Shell](https://en.wikipedia.org/wiki/Unix_shell) and the verion control system Git would be very useful - for this course, and for the rest of your life as a scientist. I do therefore recommend that you spend some time (2h total max) with the following excellent tutorials:
+    1. [Software Carpentry: The Unix Shell](http://swcarpentry.github.io/shell-novice/)
+        * If you are on MacOS/Unix, just open the terminal application and you're good to go.
+        * On Windows, you need to make up for the fact that you are not Unix. I recommend [Gnu on Windows (GOW)](https://github.com/bmatzelle/gow/wiki)
+    1. [What is Version Control? 5 minute video.](http://git-scm.com/video/what-is-version-control)
+    1. [Try Git on codeschool.org](https://try.github.io/levels/1/challenges/1): This is a 15 minute intro to Git. So cool!
 
 
 ## Homeworks
 
-All assignments are listed within the [Course Outline](#course-outline).
+Each session is accompagnied by a homework. They will be listed within the [Course Outline](#course-outline).
 
-### Workflow
+### Workflow of Homeworks
+
+The aim of the following setup is to put a system in place by which we can easily look at your solutions to a problem, you can easily look at my solutions (next to yours), and we can also look at the solutions of your peers in order to have a better learning experience. Writing code *is* a activity with tremendous returns from collaboration, and we will try and foster that in this course. Apart from this, a vast amount of high quality code is nowadays developed following this model, so it is a useful skill for you to know how the *fork-change-pull-request model* works. 
+
+If you don't know what Git is, please look at the [prerequisites](#Prerequisites/Try-Git-on-codeschool.org) first.
 
 If you're using GitHub Desktop, [these instructions](https://help.github.com/desktop/guides/contributing/) will help explain the Git/GitHub concepts. Here are the overall steps:
 
-1. Fork the repository for the exercise/project (found under [github.com/advanced-js](https://github.com/advanced-js)).
+1. Fork the repository for the homework (found under [github.com/ScPo-CompEcon](https://github.com/ScPo-CompEcon)).
 1. Clone the repository to your computer.
-1. Open the `index.html` file in a browser and open the Developer Tools.
+1. Create a new branch on your computer called `my-solution`.
 1. Modify the files to complete your solution.
-1. Refresh the `index.html` page to see the results, and repeat.
-1. Make sure all of your code is committed.
-1. Push/sync up to GitHub.
-1. [Create a pull request](https://help.github.com/articles/creating-a-pull-request) on the original repository. All assignments are due at the start of the following class, unless otherwise specified.
-1. You can continue to push fixes and improvements until the close date (listed in Classes) – just add a comment in the pull request to let me know it's been updated.
+1. Make sure your code runs and produces all output.
+1. Write a test for your code if possible.
+1. Commit all of your code to your local repository.
+1. Push your branch `my-solution` up to GitHub.
+1. [Create a pull request for `my-solution`](https://help.github.com/articles/creating-a-pull-request) on the original repository, i.e. the owned by [github.com/ScPo-CompEcon](https://github.com/ScPo-CompEcon). All assignments are due at the start of the following class, unless otherwise specified.
+1. You can continue to push fixes and improvements until the close date (24 hours before the next class).
+1. I will push my solutions to Exercise repository once you have handed in yours. You can then sync your master branch with those solutions. This way, you have both your solutions (on branch `my-solution`) as well as my solution (on the `master` branch).
 
-### Requirements
+### Requirements for Homeworks
 
-You can do this in groups of 2
+* I invite you to do the homeworks in teams of 2. 
+* You have two weeks for each homework, and they are due 24 hours before the next class, so that I have time to look at them and provide some feedback.
+* Please make clear who the contributors are in your comment on the pull request.
+* There is clearly a tradeoff between you learning by trying hard, learning from seeing the work of your colleagues, and not learning at all by just copy and pasting the best solution 1 minute before the deadline. I can only remind you that you harm noone but yourself by not exerting effort on the homeworks.
+* Each solution you submit must contain text file called `outline.md` where you describe briefly in words what you are doing in your implementation. It is good practice to write this before you even start. (you can always go back and edit this document if you find out that what you wanted to do does not work, but at least you know always what you are trying to do.)
 
 ## Term paper
 
-You are expected to produce a term paper over the course of the semester for this course. This 
+You are expected to produce a term paper over the course of the semester.  This could be
+* A replication of a paper that uses computational methods.
+* Computing additional things that another (maybe theoretical) paper does not compute.
+* Ideally, it would be your own research project.
 
-### Requirements
+### Requirements for the Term paper
 
-you must do this on your own.
+* You must do this on your own.
+* The paper should be *max* 15 pages of double-spaced 12pt font text, excluding any graphs or tables.
+* The paper should contain
+    1. A motivation/introduction and formulation of the research question.
+    1. A justification for why one needs computational methods to answer this question.
+    1. A model.
+    1. A clear outline describing the computational approach to compute the model.
+    1. A presentation of the results.
+    1. A discussion of the accuracy of the obtained results.
+* Furthermore, the code you write needs to be on github, if you want in a private rather than public repository, to which you grant me access. (you get access to 5 private repos for free). There will be extra marks for code readability and code quality.
 
-## Weapon of Choice
 
-My weapon of choice for this course is the [Julia Computing Language](http://julialang.org). I will use this occasion to *force* you to overcome any switching costs that may have put you off from learning Julia up until now. That said, for most programmers (of Python, Matlab or R) these switching costs are small. [If you are a Fortran/C++ programmer, the switching costs are negative, i.e. you will enjoy the switch.]
+
+## Weapon of Choice: Which Software?
+
+My weapon of choice for this course is the [Julia Computing Language](http://julialang.org). I see this as an occasion to persuade you to overcome any switching costs that may have put you off from learning Julia up until now and to give it a try. That said, for most programmers (of Python, Matlab or R) these switching costs are small. [If you are a Fortran/C++ programmer, the switching costs are negative, i.e. you will enjoy the switch.]
 
 I appreciate that people have strong opinions on which software is **best**. We will briefly touch upon that question in the first session and think about the pros and cons of different languages.
 
@@ -75,9 +103,13 @@ There are some excellent references for computational methods out there. This co
 
 ## Course Outline
 
-### Class 1
+Each subsection here stands for one session of 2 hours. There are 6 subsections.
 
-1. Introduction
+### First Session
+
+#### Session: Introduction and Logistics
+
+1. First things first 
     * Put name on sticky note on back of monitor
     * Discuss what the class is going to cover
     * Everyone introduce themselves
@@ -92,52 +124,87 @@ There are some excellent references for computational methods out there. This co
     * Sign up for GitHub
 1. GitHub workflow
     * Walk through [workflow](#workflow)
-    * Create pull request on [students repository](https://github.com/advanced-js/students)
+    * Create pull request on [students repository](https://github.com/ScPo-CompEcon/students)
 1. Explain how slides work
 1. Talk through [homework requirements](#homework-projects/requirements)
 1. Talk through [term paper requirements](#term-paper/requirements)
 1. Talk through [weapon of choice](#weapon-of-choice)
+
+#### Computation!
 1. Basic Computing concepts
     * The fundamental tradeoff: Speed vs Accuracy
     * Some numerical gotchas
     * Computer Memory
     * Error Analysis
-1. Unconstrained Optimisation
+1. Function Approximation
+    * Polynomial Interpolation
+        * Basis functions and Coefficients
+    * Regression as Approximation
+    * Colocation Methods
+    * Multidimensional Approximation
+        * The Smolyak Grid
 
 #### Reading
 
-Aruoba and Fernandez-Villaverde (2014) [A Comparison of Programming Languages in Economics](http://economics.sas.upenn.edu/~jesusfv/comparison_languages.pdf)
+* Aruoba and Fernandez-Villaverde (2014) [A Comparison of Programming Languages in Economics](http://economics.sas.upenn.edu/~jesusfv/comparison_languages.pdf)
 
 
 #### Homework
 
-* Join [the chat room](https://gitter.im/advanced-js/syllabus).
+* Join [the chat room]().
+* Fork the first homework at [github.com/ScPo-CompEcon/UnconstrainedOpt](https://github.com/ScPo-CompEcon/UnconstrainedOpt)
+* Clone to your machine
+* create `my-solution` branch
+* do work, commit, push branch to your github, finally create pull request on [github.com/ScPo-CompEcon/UnconstrainedOpt](https://github.com/ScPo-CompEcon/UnconstrainedOpt)
 
-### Class 2
+### Session: Numerical Integration and Differentiation
 
-1. ssss
+* Monte-Carlo integration
+* Newton-Cotes Formulas
+* Gaussian Quadrature
+* Multidimensional Quadrature
+    * Quadrature with correlated shocks
+* Numerical Differentiation
+    * Finite Differences
+    * Automatic Differentiation
+    * [JuliaOpt/JuMP.jl](https://github.com/JuliaOpt/JuMP.jl)
+        
+### Session: Optimisation
+1. Unconstrainted Optimisation
+    * Comparison Methods
+    * Newton's Method
+    * Line Search, Trust Region, and other Methods
+    * Application: Maximum Likelihood
+    * Introduce [http://www.juliaopt.org](http://www.juliaopt.org)
+1. Constrained Optimization
+    * Theory
+    * Some Numerical Methods for Constrainted Optimization
+#### Homework
+
+
+### Session: Constrained Optimisation Applications
+1. MPEC on John Rust's Bus Engine Replacement
+1. The Berry-Levinsohn-Pakes (BLP) paper as constrainted optimization problems
 
 #### Homework
 
 
+### Numerical Dynamic Programming
 
-### Class 3
-
-
-#### Homework
-
-
-### Class 4
-
-
-#### Homework
-
-
-### Class 5
+* Review of DP theory
+* Different Solution methods for different cases
+    * Discretization
+    * Parametric approximation methods [basically Function Approximation](#Function-Approximation)
+    * The Endogenous Grid Method
+    * Finite time vs inifinite horizon models
 
 #### Homework
 
-### Class 6
+### Sky's the Limit: Parallel Computing in the Cloud
+
+* Brief intro to parallel computing concepts
+* Parallel computing with julia
+* (Free) Cloud computing via the [Github Student Developer Pack](https://education.github.com/pack/join)
 
 #### Homework
 
@@ -169,6 +236,8 @@ Aruoba and Fernandez-Villaverde (2014) [A Comparison of Programming Languages in
 
 
 ## Grading
+
+50% homeworks, 50% paper
 
 ## Statements on Plagiarism
 
