@@ -22,6 +22,7 @@ Topics will be demonstrated through live-code examples/slides, available at [ScP
 ## Prerequisites
 
 * No previous programming experience is required.
+* You **will** have to write working computer code, however, so you will have to learn how to program. [This is good news.]
 * Some experience with the [Unix Shell](https://en.wikipedia.org/wiki/Unix_shell) and the verion control system Git would be very useful - for this course, and for the rest of your life as a scientist. I do therefore recommend that you spend some time (2h total max) with the following excellent tutorials:
     1. [Software Carpentry: The Unix Shell](http://swcarpentry.github.io/shell-novice/)
         * If you are on MacOS/Unix, just open the terminal application and you're good to go.
@@ -93,6 +94,8 @@ You are expected to produce a term paper over the course of the semester.  This 
 My weapon of choice for this course is the [Julia Computing Language](http://julialang.org). I see this as an occasion to persuade you to overcome any switching costs that may have put you off from learning Julia up until now and to give it a try. That said, for most programmers (of Python, Matlab or R) these switching costs are small. [If you are a Fortran/C++ programmer, the switching costs are negative, i.e. you will enjoy the switch.]
 
 I appreciate that people have strong opinions on which software is **best**. We will briefly touch upon that question in the first session and think about the pros and cons of different languages.
+
+I said there are no prerequisites; That does not mean you should not get a head start, if you so desired. An excellent tutorial for Julia is available at the [quant-econ.net website](http://quant-econ.net/jl/learning_julia.html), and I highly recommend you go and have some fun with it.
 
 ## Textbooks
 
