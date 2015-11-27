@@ -189,7 +189,7 @@ Each subsection here stands for one session of 2 hours. There are 6 subsections.
 #### Homework
 
 
-### Numerical Dynamic Programming
+### Session: Numerical Dynamic Programming
 
 * Review of DP theory
 * Different Solution methods for different cases
@@ -200,7 +200,7 @@ Each subsection here stands for one session of 2 hours. There are 6 subsections.
 
 #### Homework
 
-### Sky's the Limit: Parallel Computing in the Cloud
+### Session: Sky's the Limit - Parallel Computing in the Cloud
 
 * Brief intro to parallel computing concepts
 * Parallel computing with julia
