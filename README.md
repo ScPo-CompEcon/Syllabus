@@ -156,7 +156,7 @@ Each subsection here stands for one session of 2 hours. There are 6 subsections.
 
 #### Homework
 
-* Join [the chat room]().
+* Join [the chat room](https://gitter.im/ScPo-CompEcon).
 * Fork the first homework at [github.com/ScPo-CompEcon/FuncApprox](https://github.com/ScPo-CompEcon/FuncApprox)
 * Follow steps in [Homework workflow](#Homeworks/Workflow-of-homeworks)
 
