@@ -112,9 +112,7 @@ There are some excellent references for computational methods out there. This co
 
 Each subsection here stands for one session of 2 hours. There are 6 subsections.
 
-### First Session
-
-#### Session: Introduction and Logistics
+### First Session: Introduction, Logistics and Function Approximation
 
 1. First things first 
     * Put name on sticky note on back of monitor
