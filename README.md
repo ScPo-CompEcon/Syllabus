@@ -4,7 +4,8 @@
 
 * **Course:** Computational Economics for PhDs
 * **Teacher:** Florian Oswald, [florian.oswald@sciencespo.fr](mailto:florian.oswald@sciencespo.fr)
-* **Classes:** Bi-weekly Friday 14:45-16:45, starting 29 of January, ending 8 of April
+* **Class Times:** Bi-weekly Friday 14:45-16:45 starting 29 of January, ending 8 of April.
+* **Class Location:** Salle 31, 27 Rue Saint-Guillaume.
 * **Chatroom:** [![Join the chat at https://gitter.im/ScPo-CompEcon/Syllabus](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ScPo-CompEcon/Syllabus?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ## Course Description
@@ -24,9 +25,15 @@ Topics will be demonstrated through live-code examples/slides, available at [ScP
 
 ## Prerequisites
 
-* No previous programming experience is required.
-* You **will** have to write working computer code, however, so you will have to learn how to program. [This is good news.]
-* Some experience with the [Unix Shell](https://en.wikipedia.org/wiki/Unix_shell) and the verion control system Git would be very useful - for this course, and for the rest of your life as a scientist. I do therefore recommend that you spend some time (2h total max) with the following excellent tutorials:
+1. No previous programming experience is required.
+1. You **will** have to write working computer code, however, so you will have to learn how to program. [This is good news.]
+1. We will be using [Julia](http://julialang.org/)
+    1. It would be helpful if you could come with julia installed on your computer. Download [here](http://julialang.org/downloads/).
+    1. Additional to that, please [follow instructions here](https://github.com/stevengj/julia-mit) to install 2 packages that we will use often, PyPlot and IJulia.
+1.  There are countless good programming tutorials on the web, particularly for Python. If you have no programming experiences whatsoever, it may be useful to go through one of those. Once you know a bit of Python, `Julia` will be very close.
+    * [http://www.learnpython.org](http://www.learnpython.org)
+    * [http://www.trypython.org](http://www.trypython.org)
+1. Some experience with the [Unix Shell](https://en.wikipedia.org/wiki/Unix_shell) and the verion control system Git would be very useful - for this course, and for the rest of your life as a scientist. I do therefore recommend that you spend some time (2h total max) with the following excellent tutorials:
     1. [Software Carpentry: The Unix Shell](http://swcarpentry.github.io/shell-novice/)
         * If you are on MacOS/Unix, just open the terminal application and you're good to go.
         * On Windows, you need to make up for the fact that you are not Unix. I recommend [Gnu on Windows (GOW)](https://github.com/bmatzelle/gow/wiki)
@@ -98,7 +105,13 @@ My weapon of choice for this course is the [Julia Computing Language](http://jul
 
 I appreciate that people have strong opinions on which software is **best**. We will briefly touch upon that question in the first session and think about the pros and cons of different languages.
 
-I said there are no prerequisites; That does not mean you should not get a head start, if you so desired. An excellent tutorial for Julia is available at the [quant-econ.net website](http://quant-econ.net/jl/learning_julia.html), and I highly recommend you go and have some fun with it.
+I said there are no prerequisites; That does not mean you should not get a head start, if you so desired. An excellent tutorial for Julia is available at the [quant-econ.net website](http://quant-econ.net/jl/learning_julia.html), and I highly recommend you go and have some fun with it. Some more references are listed right here:
+
+### Julia Tutorials
+
+* [quant-econ.net website](http://quant-econ.net/jl/learning_julia.html)
+* See at the bottom of the [Julia Manual Introduction](http://docs.julialang.org/en/release-0.4/manual/getting-started/)
+* See the [Learning Section](http://julialang.org/learning/) of the Julia homepage.
 
 ## Textbooks
 
@@ -142,15 +155,8 @@ Each subsection here stands for one session of 2 hours. There are 6 subsections.
 1. Basic Computing concepts
     * The fundamental tradeoff: Speed vs Accuracy
     * Some numerical gotchas
-    * Computer Memory
-    * Error Analysis
-1. Function Approximation
-    * Polynomial Interpolation
-        * Basis functions and Coefficients
-    * Regression as Approximation
-    * Colocation Methods
-    * Multidimensional Approximation
-        * The Smolyak Grid
+    * Computer Basics
+    * Intro to `Julia`
 
 #### Reading
 
@@ -163,6 +169,17 @@ Each subsection here stands for one session of 2 hours. There are 6 subsections.
 * Fork the first homework at [github.com/ScPo-CompEcon/FuncApprox](https://github.com/ScPo-CompEcon/FuncApprox)
 * Follow steps in [Homework workflow](#Homeworks/Workflow-of-homeworks)
 
+
+### Session: Function Approximation
+
+* Polynomial Interpolation
+    * Basis functions and Coefficients
+* Regression as Approximation
+* Colocation Methods
+* Multidimensional Approximation
+    * The Smolyak Grid
+
+    
 ### Session: Numerical Integration and Differentiation
 
 * Monte-Carlo integration
@@ -176,7 +193,7 @@ Each subsection here stands for one session of 2 hours. There are 6 subsections.
     * [JuliaOpt/JuMP.jl](https://github.com/JuliaOpt/JuMP.jl)
         
 ### Session: Optimisation
-1. Unconstrainted Optimisation
+1. Unconstrained Optimisation
     * Comparison Methods
     * Newton's Method
     * Line Search, Trust Region, and other Methods
