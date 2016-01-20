@@ -30,6 +30,8 @@ Topics will be demonstrated through live-code examples/slides, available at [ScP
 1. We will be using [Julia](http://julialang.org/)
     1. It would be helpful if you could come with julia installed on your computer. Download [here](http://julialang.org/downloads/).
     1. Additional to that, please [follow instructions here](https://github.com/stevengj/julia-mit) to install 2 packages that we will use often, PyPlot and IJulia.
+    1. A very good place to start with Julia is the [quant-econ.net website](http://quant-econ.net/jl/learning_julia.html)
+    1. There are more tutorials listed below in subsection [Julia tutorials](#julia-tutorials)
 1.  There are countless good programming tutorials on the web, particularly for Python. If you have no programming experiences whatsoever, it may be useful to go through one of those. Once you know a bit of Python, `Julia` will be very close.
     * [http://www.learnpython.org](http://www.learnpython.org)
     * [http://www.trypython.org](http://www.trypython.org)
