@@ -65,7 +65,7 @@ If you're using GitHub Desktop, [these instructions](https://help.github.com/des
 1. Commit all of your code to your local repository.
 1. Push your branch `my-solution` up to your fork of my repo at GitHub.
     * you do `git push origin my-solution` 
-1. [Create a pull request for `my-solution`](https://help.github.com/articles/creating-a-pull-request) on the original repository, i.e. the owned by [github.com/ScPo-CompEcon](https://github.com/ScPo-CompEcon). All assignments are due at the start of the following class, unless otherwise specified.
+1. [Create a pull request for `my-solution`](https://help.github.com/articles/creating-a-pull-request) on the original repository, i.e. the owned by [github.com/ScPo-CompEcon](https://github.com/ScPo-CompEcon). 
 1. You can continue to push fixes and improvements until the close date (24 hours before the next class).
 1. I will push my solutions to Exercise repository once you have handed in yours. You can then sync your master branch with those solutions. This way, you have both your solutions (on branch `my-solution`) as well as my solution (on the `master` branch).
 
