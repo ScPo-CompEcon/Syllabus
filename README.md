@@ -171,7 +171,8 @@ Each subsection here stands for one session of 2 hours. There are 6 subsections.
 1. Join [the chat room](https://gitter.im/ScPo-CompEcon). You can ask any question you want there - will see them even if offline.
 1. [10 min read] Do this short online tutorial on an [example github workflow](https://guides.github.com/activities/hello-world)
 1. [4 min read] Do this short online tutorial on [forking on github](https://guides.github.com/activities/forking/)
-1. download [GitHub Desktop](https://desktop.github.com/). Someone said they are running MacOS < 10.9, and the latest release was 16 years ago. I can't believe that is the case, but please contact me if you cannot install this program.
+1. download [GitHub Desktop](https://desktop.github.com/). [Someone said they are running MacOS < 10.9, and the latest release was 16 years ago. I can't believe that is the case, but please contact me if you cannot install this program.] 
+    * Please go through the initial tutorial. It is helpful.
 1. do the fork-and-pull-request exercise on the [students repository](https://github.com/ScPo-CompEcon/students)
 
 ___
