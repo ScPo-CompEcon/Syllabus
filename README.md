@@ -174,6 +174,9 @@ Each subsection here stands for one session of 2 hours. There are 6 subsections.
 1. download [GitHub Desktop](https://desktop.github.com/). Someone said they are running MacOS < 10.9, and the latest release was 16 years ago. I can't believe that is the case, but please contact me if you cannot install this program.
 1. do the fork-and-pull-request exercise on the [students repository](https://github.com/ScPo-CompEcon/students)
 
+___
+
+
 ### Session: Integration and Function Approximation
 
 1. Numerical Integration and Derivation
@@ -198,6 +201,9 @@ Each subsection here stands for one session of 2 hours. There are 6 subsections.
 
 * Fork the first homework at [github.com/ScPo-CompEcon/HW-integration](https://github.com/ScPo-CompEcon/HW-integration)
 * Follow steps in [Homework workflow](#Homeworks/Workflow-of-homeworks)
+
+___
+
         
 ### Session: Optimisation
 1. Unconstrained Optimisation
@@ -209,8 +215,12 @@ Each subsection here stands for one session of 2 hours. There are 6 subsections.
 1. Constrained Optimization
     * Theory
     * Some Numerical Methods for Constrainted Optimization
+
 #### Homework
 
+___
+
+        
 
 ### Session: Constrained Optimisation Applications
 1. MPEC on John Rust's Bus Engine Replacement
@@ -219,6 +229,9 @@ Each subsection here stands for one session of 2 hours. There are 6 subsections.
 
 #### Homework
 
+___
+
+        
 
 ### Session: Numerical Dynamic Programming
 
@@ -231,6 +244,9 @@ Each subsection here stands for one session of 2 hours. There are 6 subsections.
 
 #### Homework
 
+___
+
+        
 ### Session: Sky's the Limit - Parallel Computing in the Cloud
 
 * Brief intro to parallel computing concepts
@@ -238,6 +254,10 @@ Each subsection here stands for one session of 2 hours. There are 6 subsections.
 * (Free) Cloud computing via the [Github Student Developer Pack](https://education.github.com/pack/join)
 
 #### Homework
+
+___
+
+        
 
 ## Pairing Tips
 
