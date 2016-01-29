@@ -130,7 +130,7 @@ There are some excellent references for computational methods out there. This co
 
 Each subsection here stands for one session of 2 hours. There are 6 subsections.
 
-### First Session: Introduction, Logistics and Function Approximation
+### First Session: Introduction, Logistics and Numerical Integration
 
 1. First things first 
     * Put name on sticky note on back of monitor
@@ -159,6 +159,15 @@ Each subsection here stands for one session of 2 hours. There are 6 subsections.
     * Some numerical gotchas
     * Computer Basics
     * Intro to `Julia`
+1. Numerical Integration and Derivation
+    * Monte-Carlo integration
+    * Gaussian Quadrature
+    * Multidimensional Quadrature
+        * Quadrature with correlated shocks
+    * Numerical Differentiation
+        * Finite Differences
+        * Automatic Differentiation
+        * [JuliaOpt/JuMP.jl](https://github.com/JuliaOpt/JuMP.jl)
 
 #### Reading
 
@@ -168,7 +177,7 @@ Each subsection here stands for one session of 2 hours. There are 6 subsections.
 #### Homework
 
 * Join [the chat room](https://gitter.im/ScPo-CompEcon).
-* Fork the first homework at [github.com/ScPo-CompEcon/FuncApprox](https://github.com/ScPo-CompEcon/FuncApprox)
+* Fork the first homework at [github.com/ScPo-CompEcon/HW-integration](https://github.com/ScPo-CompEcon/HW-integration)
 * Follow steps in [Homework workflow](#Homeworks/Workflow-of-homeworks)
 
 
@@ -181,18 +190,6 @@ Each subsection here stands for one session of 2 hours. There are 6 subsections.
 * Multidimensional Approximation
     * The Smolyak Grid
 
-    
-### Session: Numerical Integration and Differentiation
-
-* Monte-Carlo integration
-* Newton-Cotes Formulas
-* Gaussian Quadrature
-* Multidimensional Quadrature
-    * Quadrature with correlated shocks
-* Numerical Differentiation
-    * Finite Differences
-    * Automatic Differentiation
-    * [JuliaOpt/JuMP.jl](https://github.com/JuliaOpt/JuMP.jl)
         
 ### Session: Optimisation
 1. Unconstrained Optimisation
