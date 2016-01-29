@@ -159,6 +159,23 @@ Each subsection here stands for one session of 2 hours. There are 6 subsections.
     * Some numerical gotchas
     * Computer Basics
     * Intro to `Julia`
+
+#### Reading
+
+* Aruoba and Fernandez-Villaverde (2014) [A Comparison of Programming Languages in Economics](http://economics.sas.upenn.edu/~jesusfv/comparison_languages.pdf)
+
+
+#### Homework
+
+1. make sure you signed up on github (and put a picture there!)
+1. Join [the chat room](https://gitter.im/ScPo-CompEcon). You can ask any question you want there - will see them even if offline.
+1. [10 min read] Do this short online tutorial on an [example github workflow](https://guides.github.com/activities/hello-world)
+1. [4 min read] Do this short online tutorial on [forking on github](https://guides.github.com/activities/forking/)
+1. download [GitHub Desktop](https://desktop.github.com/). Someone said they are running MacOS < 10.9, and the latest release was 16 years ago. I can't believe that is the case, but please contact me if you cannot install this program.
+1. do the fork-and-pull-request exercise on the [students repository](https://github.com/ScPo-CompEcon/students)
+
+### Session: Integration and Function Approximation
+
 1. Numerical Integration and Derivation
     * Monte-Carlo integration
     * Gaussian Quadrature
@@ -169,27 +186,18 @@ Each subsection here stands for one session of 2 hours. There are 6 subsections.
         * Automatic Differentiation
         * [JuliaOpt/JuMP.jl](https://github.com/JuliaOpt/JuMP.jl)
 
-#### Reading
-
-* Aruoba and Fernandez-Villaverde (2014) [A Comparison of Programming Languages in Economics](http://economics.sas.upenn.edu/~jesusfv/comparison_languages.pdf)
+1. Polynomial Interpolation
+    * Basis functions and Coefficients
+1. Regression as Approximation
+1. Colocation Methods
+1. Multidimensional Approximation
+    * The Smolyak Grid
 
 
 #### Homework
 
-* Join [the chat room](https://gitter.im/ScPo-CompEcon).
 * Fork the first homework at [github.com/ScPo-CompEcon/HW-integration](https://github.com/ScPo-CompEcon/HW-integration)
 * Follow steps in [Homework workflow](#Homeworks/Workflow-of-homeworks)
-
-
-### Session: Function Approximation
-
-* Polynomial Interpolation
-    * Basis functions and Coefficients
-* Regression as Approximation
-* Colocation Methods
-* Multidimensional Approximation
-    * The Smolyak Grid
-
         
 ### Session: Optimisation
 1. Unconstrained Optimisation
