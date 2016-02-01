@@ -115,6 +115,12 @@ I said there are no prerequisites; That does not mean you should not get a head 
 * See at the bottom of the [Julia Manual Introduction](http://docs.julialang.org/en/release-0.4/manual/getting-started/)
 * See the [Learning Section](http://julialang.org/learning/) of the Julia homepage.
 
+### Julia Environments
+
+* You can use pure Julia together with a text editor.
+    * [sublime text](http://www.sublimetext.com) is a good choice, [https://atom.io](https://atom.io) looks great (never tried), [http://www.vim.org](http://www.vim.org) if you are hard-core.
+    * You can use an IDE (like matlab or RStudio). [Juno](http://junolab.org) is great.
+
 ## Textbooks
 
 There are some excellent references for computational methods out there. This course will use material from 
