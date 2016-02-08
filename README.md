@@ -181,7 +181,7 @@ Each subsection here stands for one session of 2 hours. There are 6 subsections.
 1. download [GitHub Desktop](https://desktop.github.com/). [Someone said they are running MacOS < 10.9, and the latest release was 16 years ago. I can't believe that is the case, but please contact me if you cannot install this program.] 
     * Please go through the initial tutorial. It is helpful.
 1. do the fork-and-pull-request exercise on the [students repository](https://github.com/ScPo-CompEcon/students)
-
+1. Please note: I added a comment (about a comment) to my `JSON` example file. Make sure your file has exactly that format, and is exactly saved in that location. (you have to look at my repo, not your fork)
 ___
 
 
