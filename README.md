@@ -201,18 +201,18 @@ ___
         * Finite Differences
         * Automatic Differentiation
         * [JuliaOpt/JuMP.jl](https://github.com/JuliaOpt/JuMP.jl)
-
-1. Polynomial Interpolation
-    * Basis functions and Coefficients
-1. Regression as Approximation
-1. Colocation Methods
-1. Multidimensional Approximation
-    * The Smolyak Grid
+2. Function Approximation
+    * Polynomial Interpolation
+        * Basis functions and Coefficients
+    * Regression as Approximation
+    * Colocation Methods
+    * Multidimensional Approximation
+        * The Smolyak Grid
 
 
 #### Homework
 
-* Fork the first homework at [github.com/ScPo-CompEcon/HW-integration](https://github.com/ScPo-CompEcon/HW-integration)
+* Fork the homework at [github.com/ScPo-CompEcon/HW-integration](https://github.com/ScPo-CompEcon/HW-integration)
 * Follow steps in [Homework workflow](#Homeworks/Workflow-of-homeworks)
 
 ___
