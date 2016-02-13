@@ -213,7 +213,7 @@ ___
 #### Homework
 
 * Fork the homework at [github.com/ScPo-CompEcon/HW-integration](https://github.com/ScPo-CompEcon/HW-integration)
-* Follow steps in [Homework workflow](#Homeworks/Workflow-of-homeworks)
+* Follow steps detailed there.
 
 ___
 
