@@ -213,7 +213,13 @@ ___
 #### Homework
 
 * Fork the homework at [github.com/ScPo-CompEcon/HW-integration](https://github.com/ScPo-CompEcon/HW-integration)
-* Follow steps detailed there.
+    * Follow steps detailed there.
+* Create a new repository on github for your term paper. 
+    * Choose a name, whether public of private and select the option to create a README.md file. clone.
+    * In the README.md file detail your project idea in a few words (more than 100 but less than 500). If you need math, include an IJulia notebook.
+    * If you decide to make this a private repository, you need to add me as a collaborator.
+    * push to github.
+    * email me the URL of the repo by the homework deadline (24h prior to next class.)
 
 ___
 
