@@ -233,7 +233,7 @@ ___
     * Introduce [http://www.juliaopt.org](http://www.juliaopt.org)
 1. Constrained Optimization
     * Theory
-    * Some Numerical Methods for Constrainted Optimization
+    * Some Numerical Methods for Constrained Optimization
 
 #### Homework
 
@@ -324,6 +324,12 @@ Please respect the terms of use and/or license of any code you find, and if you 
 
 ## License
 
-In setting up this course I was heavily influenced - and shamelessly copied entire parts of - [https://github.com/advanced-js](https://github.com/advanced-js) taught by [Aidan Feldman](https://github.com/afeld) and team at NYU, and I would like to thankfully acknowledge making the materials useable to other teachers. The same license applies:
+In setting up this course I was heavily influenced - and shamelessly copied entire parts of - [https://github.com/advanced-js](https://github.com/advanced-js) taught by [Aidan Feldman](https://github.com/afeld) and team at NYU, and I would like to thankfully acknowledge making the materials useable to other teachers. The same license applies (below). The license allows you to copy and use everything here, under the condition that you attribute the work (details in the license). The copyright notice to be included in any such copies and other derivative work is:
+
+```
+Copyright 2015 Florian Oswald, Sciences Po Paris, florian.oswald@gmail.com
+```
+
+Thank you.
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" rel="dct:type">work</span> and all other materials under https://github.com/ScPo-CompEcon are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
