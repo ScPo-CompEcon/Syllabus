@@ -94,6 +94,7 @@ You are expected to produce a term paper over the course of the semester.  This 
 
 ### Requirements for the Term paper
 
+* **Due Date**: May 9th 2016.
 * You must do this on your own.
 * The paper should be *max* 15 pages of double-spaced 12pt font text, excluding any graphs or tables.
 * The paper should contain
