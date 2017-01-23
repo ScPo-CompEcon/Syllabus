@@ -4,15 +4,9 @@
 
 * **Course:** Computational Economics for PhDs
 * **Teacher:** Florian Oswald, [florian.oswald@sciencespo.fr](mailto:florian.oswald@sciencespo.fr)
-* **Class Times:** Bi-weekly Friday 14:45-16:45 starting 29 of January, ending 8 of April.
+* **Class Times:** Weekly Friday 14:45-16:45 starting 27 of January, ending 8 of April.
+* **Class Location:** Salle : 911 - 9, rue de la chaise
 * **Chatroom:** [![Join the chat at https://gitter.im/ScPo-CompEcon/Syllabus](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ScPo-CompEcon/Syllabus?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-* **Class Locations:** 
-    1. 29/01/2016: Salle 31, 27 Rue Saint-Guillaume.
-    1. 12/02/2016: Salle 26, 27 Rue Saint-Guillaume.
-    1. 26/02/2016: Salle 34, 27 Rue Saint-Guillaume.
-    1. 11/03/2016: Salle 105, 56 Rue des Saints-Pères.
-    1. 25/03/2016: Salle 31, 27 Rue Saint-Guillaume.
-    1. 08/04/2016: Salle 31, 27 Rue Saint-Guillaume.
 
 ## Course Description
 
@@ -24,29 +18,29 @@ In this course you will learn about some commonly used methods in Computational 
 
 > Doing Computation is the only way to learn Computation. Doing Computation is the only way to learn Computation. Doing Computation is the only way to learn Computation.
 
-True to that motto, there will be a homework associated to each session. There will also be a term paper. It will be helpful to bring a laptop to the sessions if you have one.
+True to that motto, there will be homeworks for you to try out what you learned in class. There will also be a term paper. It will be helpful to bring a laptop to the sessions if you have one.
 
 Topics will be demonstrated through live-code examples/slides, available at [ScPo-CompEcon.github.io/slides](http://ScPo-CompEcon.github.io/slides).  
 
 
 ## Prerequisites
 
-1. No previous programming experience is required.
-1. You **will** have to write working computer code, however, so you will have to learn how to program. [This is good news.]
-1. We will be using [Julia](http://julialang.org/)
-    1. It would be helpful if you could come with julia installed on your computer. Download [here](http://julialang.org/downloads/).
-    1. Additional to that, please [follow instructions here](https://github.com/stevengj/julia-mit) to install 2 packages that we will use often, PyPlot and IJulia.
-    1. A very good place to start with Julia is the [quant-econ.net website](http://quant-econ.net/jl/learning_julia.html)
+1. We will be using [Julia](http://julialang.org/) for this course. Please download the latest stable release [here (v0.5.0)](http://julialang.org/downloads/). Please read in full the following short pieces after you installed the program:
+    - [Noteworthy Differences from Other Languages](http://docs.julialang.org/en/release-0.5/manual/noteworthy-differences/)
+    - [Performance Tips](http://docs.julialang.org/en/release-0.5/manual/performance-tips/)
+    - [MATLAB, Python, Julia Syntax Comparison](http://cheatsheets.quantecon.org/)
+1. Some basic programming experience in julia, R, python, C++, java, fortran, etc. would be helpful. [Stata doesn't count.] You must know and be able to work with the terms *variable*, *memory*, *loop* and *array*.
+    1. A good place to start with Julia is the [quant-econ.net website](http://quant-econ.net/jl/learning_julia.html)
+    1. Otherwise it may be useful to go through a short Python tutorial. Once you know a bit of Python, `Julia` will be very close:
+        * [http://www.learnpython.org](http://www.learnpython.org)
+        * [http://www.trypython.org](http://www.trypython.org)
     1. There are more tutorials listed below in subsection [Julia tutorials](#julia-tutorials)
-1.  There are countless good programming tutorials on the web, particularly for Python. If you have no programming experiences whatsoever, it may be useful to go through one of those. Once you know a bit of Python, `Julia` will be very close.
-    * [http://www.learnpython.org](http://www.learnpython.org)
-    * [http://www.trypython.org](http://www.trypython.org)
 1. Some experience with the [Unix Shell](https://en.wikipedia.org/wiki/Unix_shell) and the verion control system Git would be very useful - for this course, and for the rest of your life as a scientist. I do therefore recommend that you spend some time (2h total max) with the following excellent tutorials:
     1. [Software Carpentry: The Unix Shell](http://swcarpentry.github.io/shell-novice/)
         * If you are on MacOS/Unix, just open the terminal application and you're good to go.
         * On Windows, you need to make up for the fact that you are not Unix. I recommend [Gnu on Windows (GOW)](https://github.com/bmatzelle/gow/wiki)
     1. [What is Version Control? 5 minute video.](http://git-scm.com/video/what-is-version-control)
-    1. [Try Git on codeschool.org](https://try.github.io/levels/1/challenges/1): This is a 15 minute intro to Git. So cool!
+        * [Try Git on codeschool.org](https://try.github.io/levels/1/challenges/1): This is a 15 minute intro to Git. So cool!
 
 
 ## Homeworks
@@ -106,16 +100,6 @@ You are expected to produce a term paper over the course of the semester.  This 
     6. A discussion of the accuracy of the obtained results.
 * Furthermore, the code you write needs to be on github, if you want in a private rather than public repository, to which you grant me access. (you get access to 5 private repos for free). There will be extra marks for code readability and code quality.
 
-
-
-## Weapon of Choice: Which Software?
-
-My weapon of choice for this course is the [Julia Computing Language](http://julialang.org). I see this as an occasion to persuade you to overcome any switching costs that may have put you off from learning Julia up until now and to give it a try. That said, for most programmers (of Python, Matlab or R) these switching costs are small. [If you are a Fortran/C++ programmer, the switching costs are negative, i.e. you will enjoy the switch.]
-
-I appreciate that people have strong opinions on which software is **best**. We will briefly touch upon that question in the first session and think about the pros and cons of different languages.
-
-I said there are no prerequisites; That does not mean you should not get a head start, if you so desired. An excellent tutorial for Julia is available at the [quant-econ.net website](http://quant-econ.net/jl/learning_julia.html), and I highly recommend you go and have some fun with it. Some more references are listed right here:
-
 ### Julia Tutorials
 
 * [quant-econ.net website](http://quant-econ.net/jl/learning_julia.html)
@@ -125,7 +109,7 @@ I said there are no prerequisites; That does not mean you should not get a head 
 ### Julia Environments
 
 * You can use pure Julia together with a text editor.
-    * [sublime text](http://www.sublimetext.com) is a good choice, [https://atom.io](https://atom.io) looks great (never tried), [http://www.vim.org](http://www.vim.org) if you are hard-core.
+    * [sublime text](http://www.sublimetext.com) is a good choice, [http://www.vim.org](http://www.vim.org) if you are hard-core.
     * You can use an IDE (like matlab or RStudio). [Juno](http://junolab.org) is great.
 
 ## Textbooks
@@ -145,14 +129,6 @@ Each subsection here stands for one session of 2 hours. There are 6 subsections.
 
 ### First Session: Introduction, Logistics and Numerical Integration
 
-1. First things first 
-    * Put name on sticky note on back of monitor
-    * Discuss what the class is going to cover
-    * Everyone introduce themselves
-        * Name
-        * What you "do"
-        * What are your goals for the class?
-        * What's something related to *computation* in Economics you worry that your peers understand but you don't?
 1. Setup
     * How many people are comfortable with Git/GitHub?
     * Install [GitHub Desktop](https://desktop.github.com/)
