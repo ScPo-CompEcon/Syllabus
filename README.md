@@ -1,7 +1,5 @@
 # ScPo-CompEcon Syllabus
 
-
-
 * **Course:** Computational Economics for PhDs
 * **Teacher:** Florian Oswald, [florian.oswald@sciencespo.fr](mailto:florian.oswald@sciencespo.fr)
 * **Class Times:** Weekly Friday 14:45-16:45 starting 27 of January
