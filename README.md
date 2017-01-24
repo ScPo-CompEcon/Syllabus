@@ -30,9 +30,15 @@ Topics will be demonstrated through live-code examples/slides, available at [ScP
     - [Performance Tips](http://docs.julialang.org/en/release-0.5/manual/performance-tips/)
     - [MATLAB, Python, Julia Syntax Comparison](http://cheatsheets.quantecon.org/)
 1. Some experience with the [Unix Shell](https://en.wikipedia.org/wiki/Unix_shell) and the verion control system Git would be very useful - for this course, and for the rest of your life as a scientist. I do therefore recommend that you spend some time with the following excellent tutorials:
-    1. [Software Carpentry: The Unix Shell](http://swcarpentry.github.io/shell-novice/)
-        * If you are on MacOS/Unix, just open the terminal application and you're good to go.
-        * On Windows, you need to make up for the fact that you are not Unix. I recommend [Gnu on Windows (GOW)](https://github.com/bmatzelle/gow/wiki)
+    1. [Software Carpentry: The Unix Shell](http://swcarpentry.github.io/shell-novice/): If you have never heard of unix, please go over the first three (very short) chapters:
+        * chapters:
+            * http://swcarpentry.github.io/shell-novice/01-intro/
+            * http://swcarpentry.github.io/shell-novice/02-filedir/
+            * http://swcarpentry.github.io/shell-novice/03-create/
+        * Where is my Shell Terminal?
+            * If you are on Mac OSX, go to Applications, Utilities, Terminal.
+            * On Linux, I bet you know.
+            * On Windows, you need to make up for the fact that you are not a Unixy system. I recommend [Gnu on Windows (GOW)](https://github.com/bmatzelle/gow/wiki)
     1. [What is Version Control? 5 minute video.](http://git-scm.com/video/what-is-version-control)
         * [Try Git on codeschool.org](https://try.github.io/levels/1/challenges/1): This is a 15 minute intro to Git. So cool!
 
