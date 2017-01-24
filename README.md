@@ -1,8 +1,14 @@
 # ScPo-CompEcon Syllabus
 
+[![Join the chat at https://gitter.im/ScPo-CompEcon/Syllabus](https://badges.gitter.im/ScPo-CompEcon/Syllabus.svg)](https://gitter.im/ScPo-CompEcon/Syllabus?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+
+
 * **Course:** Computational Economics for PhDs
 * **Teacher:** Florian Oswald, [florian.oswald@sciencespo.fr](mailto:florian.oswald@sciencespo.fr)
-* **Classes:** Bi-weekly Friday 14:45-16:45, starting 29 of January, ending 8 of April
+* **Class Times:** Weekly Friday 14:45-16:45 starting 27 of January, ending 8 of April.
+* **Class Location:** Salle : 911 - 9, rue de la chaise
+* **Chatroom:** [![Join the chat at https://gitter.im/ScPo-CompEcon/Syllabus](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ScPo-CompEcon/Syllabus?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ## Course Description
 
@@ -14,21 +20,29 @@ In this course you will learn about some commonly used methods in Computational 
 
 > Doing Computation is the only way to learn Computation. Doing Computation is the only way to learn Computation. Doing Computation is the only way to learn Computation.
 
-True to that motto, there will be a homework associated to each session. There will also be a term paper. It will be helpful to bring a laptop to the sessions if you have one.
+True to that motto, there will be homeworks for you to try out what you learned in class. There will also be a term paper. It will be helpful to bring a laptop to the sessions if you have one.
 
 Topics will be demonstrated through live-code examples/slides, available at [ScPo-CompEcon.github.io/slides](http://ScPo-CompEcon.github.io/slides).  
 
 
 ## Prerequisites
 
-* No previous programming experience is required.
-* You **will** have to write working computer code, however, so you will have to learn how to program. [This is good news.]
-* Some experience with the [Unix Shell](https://en.wikipedia.org/wiki/Unix_shell) and the verion control system Git would be very useful - for this course, and for the rest of your life as a scientist. I do therefore recommend that you spend some time (2h total max) with the following excellent tutorials:
+1. We will be using [Julia](http://julialang.org/) for this course. Please download the latest stable release [here (v0.5.0)](http://julialang.org/downloads/). Please read in full the following short pieces after you installed the program:
+    - [Noteworthy Differences from Other Languages](http://docs.julialang.org/en/release-0.5/manual/noteworthy-differences/)
+    - [Performance Tips](http://docs.julialang.org/en/release-0.5/manual/performance-tips/)
+    - [MATLAB, Python, Julia Syntax Comparison](http://cheatsheets.quantecon.org/)
+1. Some basic programming experience in julia, R, python, C++, java, fortran, etc. would be helpful. [Stata doesn't count.] You must know and be able to work with the terms *variable*, *memory*, *loop* and *array*.
+    1. A good place to start with Julia is the [quant-econ.net website](http://quant-econ.net/jl/learning_julia.html)
+    1. Otherwise it may be useful to go through a short Python tutorial. Once you know a bit of Python, `Julia` will be very close:
+        * [http://www.learnpython.org](http://www.learnpython.org)
+        * [http://www.trypython.org](http://www.trypython.org)
+    1. There are more tutorials listed below in subsection [Julia tutorials](#julia-tutorials)
+1. Some experience with the [Unix Shell](https://en.wikipedia.org/wiki/Unix_shell) and the verion control system Git would be very useful - for this course, and for the rest of your life as a scientist. I do therefore recommend that you spend some time (2h total max) with the following excellent tutorials:
     1. [Software Carpentry: The Unix Shell](http://swcarpentry.github.io/shell-novice/)
         * If you are on MacOS/Unix, just open the terminal application and you're good to go.
         * On Windows, you need to make up for the fact that you are not Unix. I recommend [Gnu on Windows (GOW)](https://github.com/bmatzelle/gow/wiki)
     1. [What is Version Control? 5 minute video.](http://git-scm.com/video/what-is-version-control)
-    1. [Try Git on codeschool.org](https://try.github.io/levels/1/challenges/1): This is a 15 minute intro to Git. So cool!
+        * [Try Git on codeschool.org](https://try.github.io/levels/1/challenges/1): This is a 15 minute intro to Git. So cool!
 
 
 ## Homeworks
@@ -53,7 +67,7 @@ If you're using GitHub Desktop, [these instructions](https://help.github.com/des
 1. Commit all of your code to your local repository.
 1. Push your branch `my-solution` up to your fork of my repo at GitHub.
     * you do `git push origin my-solution` 
-1. [Create a pull request for `my-solution`](https://help.github.com/articles/creating-a-pull-request) on the original repository, i.e. the owned by [github.com/ScPo-CompEcon](https://github.com/ScPo-CompEcon). All assignments are due at the start of the following class, unless otherwise specified.
+1. [Create a pull request for `my-solution`](https://help.github.com/articles/creating-a-pull-request) on the original repository, i.e. the owned by [github.com/ScPo-CompEcon](https://github.com/ScPo-CompEcon). 
 1. You can continue to push fixes and improvements until the close date (24 hours before the next class).
 1. I will push my solutions to Exercise repository once you have handed in yours. You can then sync your master branch with those solutions. This way, you have both your solutions (on branch `my-solution`) as well as my solution (on the `master` branch).
 
@@ -76,6 +90,7 @@ You are expected to produce a term paper over the course of the semester.  This 
 
 ### Requirements for the Term paper
 
+* **Due Date**: May 9th 2016.
 * You must do this on your own.
 * The paper should be *max* 15 pages of double-spaced 12pt font text, excluding any graphs or tables.
 * The paper should contain
@@ -87,15 +102,17 @@ You are expected to produce a term paper over the course of the semester.  This 
     6. A discussion of the accuracy of the obtained results.
 * Furthermore, the code you write needs to be on github, if you want in a private rather than public repository, to which you grant me access. (you get access to 5 private repos for free). There will be extra marks for code readability and code quality.
 
+### Julia Tutorials
 
+* [quant-econ.net website](http://quant-econ.net/jl/learning_julia.html)
+* See at the bottom of the [Julia Manual Introduction](http://docs.julialang.org/en/release-0.4/manual/getting-started/)
+* See the [Learning Section](http://julialang.org/learning/) of the Julia homepage.
 
-## Weapon of Choice: Which Software?
+### Julia Environments
 
-My weapon of choice for this course is the [Julia Computing Language](http://julialang.org). I see this as an occasion to persuade you to overcome any switching costs that may have put you off from learning Julia up until now and to give it a try. That said, for most programmers (of Python, Matlab or R) these switching costs are small. [If you are a Fortran/C++ programmer, the switching costs are negative, i.e. you will enjoy the switch.]
-
-I appreciate that people have strong opinions on which software is **best**. We will briefly touch upon that question in the first session and think about the pros and cons of different languages.
-
-I said there are no prerequisites; That does not mean you should not get a head start, if you so desired. An excellent tutorial for Julia is available at the [quant-econ.net website](http://quant-econ.net/jl/learning_julia.html), and I highly recommend you go and have some fun with it.
+* You can use pure Julia together with a text editor.
+    * [sublime text](http://www.sublimetext.com) is a good choice, [http://www.vim.org](http://www.vim.org) if you are hard-core.
+    * You can use an IDE (like matlab or RStudio). [Juno](http://junolab.org) is great.
 
 ## Textbooks
 
@@ -112,16 +129,8 @@ There are some excellent references for computational methods out there. This co
 
 Each subsection here stands for one session of 2 hours. There are 6 subsections.
 
-### First Session: Introduction, Logistics and Function Approximation
+### First Session: Introduction, Logistics and Numerical Integration
 
-1. First things first 
-    * Put name on sticky note on back of monitor
-    * Discuss what the class is going to cover
-    * Everyone introduce themselves
-        * Name
-        * What you "do"
-        * What are your goals for the class?
-        * What's something related to *computation* in Economics you worry that your peers understand but you don't?
 1. Setup
     * How many people are comfortable with Git/GitHub?
     * Install [GitHub Desktop](https://desktop.github.com/)
@@ -139,15 +148,8 @@ Each subsection here stands for one session of 2 hours. There are 6 subsections.
 1. Basic Computing concepts
     * The fundamental tradeoff: Speed vs Accuracy
     * Some numerical gotchas
-    * Computer Memory
-    * Error Analysis
-1. Function Approximation
-    * Polynomial Interpolation
-        * Basis functions and Coefficients
-    * Regression as Approximation
-    * Colocation Methods
-    * Multidimensional Approximation
-        * The Smolyak Grid
+    * Computer Basics
+    * Intro to `Julia`
 
 #### Reading
 
@@ -156,24 +158,53 @@ Each subsection here stands for one session of 2 hours. There are 6 subsections.
 
 #### Homework
 
-* Join [the chat room]().
-* Fork the first homework at [github.com/ScPo-CompEcon/FuncApprox](https://github.com/ScPo-CompEcon/FuncApprox)
-* Follow steps in [Homework workflow](#Homeworks/Workflow-of-homeworks)
+1. make sure you signed up on github (and put a picture there!)
+1. Join [the chat room](https://gitter.im/ScPo-CompEcon). You can ask any question you want there - will see them even if offline.
+1. [10 min read] Do this short online tutorial on an [example github workflow](https://guides.github.com/activities/hello-world)
+1. [4 min read] Do this short online tutorial on [forking on github](https://guides.github.com/activities/forking/)
+1. download [GitHub Desktop](https://desktop.github.com/). [Someone said they are running MacOS < 10.9, and the latest release was 16 years ago. I can't believe that is the case, but please contact me if you cannot install this program.] 
+    * Please go through the initial tutorial. It is helpful.
+1. do the fork-and-pull-request exercise on the [students repository](https://github.com/ScPo-CompEcon/students)
+1. Please note: I added a comment (about a comment) to my `JSON` example file. Make sure your file has exactly that format, and is exactly saved in that location. (you have to look at my repo, not your fork)
+___
 
-### Session: Numerical Integration and Differentiation
 
-* Monte-Carlo integration
-* Newton-Cotes Formulas
-* Gaussian Quadrature
-* Multidimensional Quadrature
-    * Quadrature with correlated shocks
-* Numerical Differentiation
-    * Finite Differences
-    * Automatic Differentiation
-    * [JuliaOpt/JuMP.jl](https://github.com/JuliaOpt/JuMP.jl)
+### Session: Integration and Function Approximation
+
+1. Numerical Integration and Derivation
+    * Monte-Carlo integration
+    * Gaussian Quadrature
+    * Multidimensional Quadrature
+        * Quadrature with correlated shocks
+    * Numerical Differentiation
+        * Finite Differences
+        * Automatic Differentiation
+        * [JuliaOpt/JuMP.jl](https://github.com/JuliaOpt/JuMP.jl)
+2. Function Approximation
+    * Polynomial Interpolation
+        * Basis functions and Coefficients
+    * Regression as Approximation
+    * Colocation Methods
+    * Multidimensional Approximation
+        * The Smolyak Grid
+
+
+#### Homework
+
+* Fork the homework at [github.com/ScPo-CompEcon/HW-integration](https://github.com/ScPo-CompEcon/HW-integration)
+    * Follow steps detailed there.
+* Create a new repository on github for your term paper. 
+    * Choose a name, whether public of private and select the option to create a README.md file. clone.
+    * In the README.md file detail your project idea in a few words (more than 100 but less than 500). If you need math, include an IJulia notebook.
+    * If you decide to make this a private repository, you need to add me as a collaborator.
+    * push to github.
+    * email me the URL of the repo by the homework deadline (24h prior to next class.)
+
+___
+
         
 ### Session: Optimisation
-1. Unconstrainted Optimisation
+1. Unconstrained Optimisation
     * Comparison Methods
     * Newton's Method
     * Line Search, Trust Region, and other Methods
@@ -181,9 +212,13 @@ Each subsection here stands for one session of 2 hours. There are 6 subsections.
     * Introduce [http://www.juliaopt.org](http://www.juliaopt.org)
 1. Constrained Optimization
     * Theory
-    * Some Numerical Methods for Constrainted Optimization
+    * Some Numerical Methods for Constrained Optimization
+
 #### Homework
 
+___
+
+        
 
 ### Session: Constrained Optimisation Applications
 1. MPEC on John Rust's Bus Engine Replacement
@@ -192,6 +227,9 @@ Each subsection here stands for one session of 2 hours. There are 6 subsections.
 
 #### Homework
 
+___
+
+        
 
 ### Session: Numerical Dynamic Programming
 
@@ -204,6 +242,9 @@ Each subsection here stands for one session of 2 hours. There are 6 subsections.
 
 #### Homework
 
+___
+
+        
 ### Session: Sky's the Limit - Parallel Computing in the Cloud
 
 * Brief intro to parallel computing concepts
@@ -211,6 +252,10 @@ Each subsection here stands for one session of 2 hours. There are 6 subsections.
 * (Free) Cloud computing via the [Github Student Developer Pack](https://education.github.com/pack/join)
 
 #### Homework
+
+___
+
+        
 
 ## Pairing Tips
 
@@ -258,6 +303,12 @@ Please respect the terms of use and/or license of any code you find, and if you 
 
 ## License
 
-In setting up this course I was heavily influenced - and shamelessly copied entire parts of - [https://github.com/advanced-js](https://github.com/advanced-js) taught by [Aidan Feldman](https://github.com/afeld) and team at NYU, and I would like to thankfully acknowledge making the materials useable to other teachers. The same license applies:
+In setting up this course I was heavily influenced - and shamelessly copied entire parts of - [https://github.com/advanced-js](https://github.com/advanced-js) taught by [Aidan Feldman](https://github.com/afeld) and team at NYU, and I would like to thankfully acknowledge making the materials useable to other teachers. The same license applies (below). The license allows you to copy and use everything here, under the condition that you attribute the work (details in the license). The copyright notice to be included in any such copies and other derivative work is:
+
+```
+Copyright 2015 Florian Oswald, Sciences Po Paris, florian.oswald@gmail.com
+```
+
+Thank you.
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" rel="dct:type">work</span> and all other materials under https://github.com/ScPo-CompEcon are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
