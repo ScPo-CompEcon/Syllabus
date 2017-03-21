@@ -56,6 +56,26 @@ You are expected to produce a term paper over the course of the semester.  This 
 * Computing additional things that another (maybe theoretical) paper does not compute.
 * Ideally, it would be your own research project.
 
+### Term paper details
+
+The project needs to have two parts: a paper (max 10 pages), and a git repo with all associated code.
+  
+**Deadline**: Friday 5th of May
+  
+### Details
+
+* You must do this on your own.
+* The paper should be *max* 10 pages of double-spaced 12pt font text, excluding any graphs or tables.
+* The paper should contain
+    1. A motivation/introduction and formulation of the research question.
+    2. A model.
+    3. A justification for why one needs computational methods to answer this question.
+    4. A clear outline describing the computational approach to compute the model.
+    5. A presentation of the results.
+    6. A discussion of the accuracy of the obtained results, unit tests written and performance considerations
+* Furthermore, the code you write needs to be on github, if you want in a private rather than public repository, to which you grant me access. (you get access to 5 private repos for free). There will be extra marks for code readability and code quality.
+
+
 
 ## Textbooks
 
