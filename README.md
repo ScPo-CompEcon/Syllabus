@@ -4,8 +4,8 @@
 
 * **Course:** Computational Economics for PhDs
 * **Teacher:** Florian Oswald, [florian.oswald@sciencespo.fr](mailto:florian.oswald@sciencespo.fr)
-* **Class Times:** Weekly Friday 14:45-16:45 starting 27 of January
-* **Class Location:** Salle : 911 - 9, rue de la chaise
+* **Class Times:** tbc
+* **Class Location:** tbc
 * **Chatroom:** [![Join the chat at https://gitter.im/ScPo-CompEcon/Syllabus](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ScPo-CompEcon/Syllabus?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ## Course Description
@@ -25,11 +25,13 @@ Topics will be demonstrated through live-code examples/slides, available at [ScP
 
 ## Prerequisites
 
-1. We will be using [Julia](http://julialang.org/) for this course. Please download the latest stable release [here (v0.5.0)](http://julialang.org/downloads/). Please read in full the following short pieces after you installed the program:
-    - [Noteworthy Differences from Other Languages](http://docs.julialang.org/en/release-0.5/manual/noteworthy-differences/)
-    - [Performance Tips](http://docs.julialang.org/en/release-0.5/manual/performance-tips/)
+1. You need a laptop. No programming skills required.
+1. That said, we will follow a rather steep learning curve in terms of programming. If you followed Tyler Abbot's **introduction to programming** class last year, you should be all set. If you haven't, or would like a refresher, why not follow **introduction to programming** taught by Hugo Lhuillier this semester (staring January 2018)? I *warmly* recommend to attend this course if you did not sit Tyler's course.
+1. We will be using [Julia](http://julialang.org/) for this course. Julia version `1.0` is planned for release early 2018, and depending on that release I will ask you to install a certain version of Julia. Stay tuned. If you have some programming experience in other languages, maybe this is interesting for you:
+    - [Noteworthy Differences from Other Languages](http://docs.julialang.org/en/release-0.6/manual/noteworthy-differences/)
+    - [Performance Tips](http://docs.julialang.org/en/release-0.6/manual/performance-tips/)
     - [MATLAB, Python, Julia Syntax Comparison](http://cheatsheets.quantecon.org/)
-1. Some experience with the [Unix Shell](https://en.wikipedia.org/wiki/Unix_shell) and the verion control system Git would be very useful - for this course, and for the rest of your life as a scientist. I do therefore recommend that you spend some time with the following excellent tutorials:
+1. Hugo in his course will introduce you to things like the [Unix Shell](https://en.wikipedia.org/wiki/Unix_shell) and the verion control system Git. Both of those are very useful - for this course, and for the rest of your life as a scientist. If you want to get a headstard, why not have a peek at those excellent tutorials:
     1. [Software Carpentry: The Unix Shell](http://swcarpentry.github.io/shell-novice/): If you have never heard of unix, please go over the first three (very short) chapters:
         * chapters:
             * http://swcarpentry.github.io/shell-novice/01-intro/
@@ -48,34 +50,15 @@ Topics will be demonstrated through live-code examples/slides, available at [ScP
 There will be homeworks. They will be listed within the [Course Outline](#course-outline).
 
 
-## Term paper
+## Term Project
 
-You are expected to produce a term paper over the course of the semester.  This could be:
+This year we will try and implement a prototype for a new course allocation algorithm for SciencesPo students. There was a task force on this last year to work on a solution, and they came up with a workable algorithm. Despite the theory being available, the computational problem to actually **compute** the allocation remains formidable (it will have to make use of distributed computation across many computers in the end). We will have a crack at it. This is a class-wide project to which we are all going to contribute to. Real-world open source software development in your classroom!   
+(:wrench:, :muscle:, :tada:) `=>` (acquire the tools, do the work, tada!)
 
-* A replication of a paper that uses computational methods.
-* Computing additional things that another (maybe theoretical) paper does not compute.
-* Ideally, it would be your own research project.
+### details
 
-### Term paper details
-
-The project needs to have two parts: a paper (max 10 pages), and a git repo with all associated code.
+You will work in teams of 2. Details tbc.
   
-**Deadline**: Friday 5th of May
-  
-### Details
-
-* You must do this on your own.
-* The paper should be *max* 10 pages of double-spaced 12pt font text, excluding any graphs or tables.
-* The paper should contain
-    1. A motivation/introduction and formulation of the research question.
-    2. A model.
-    3. A justification for why one needs computational methods to answer this question.
-    4. A clear outline describing the computational approach to compute the model.
-    5. A presentation of the results.
-    6. A discussion of the accuracy of the obtained results, unit tests written and performance considerations
-* Furthermore, the code you write needs to be on github, if you want in a private rather than public repository, to which you grant me access. (you get access to 5 private repos for free). There will be extra marks for code readability and code quality.
-
-
 
 ## Textbooks
 
@@ -89,6 +72,8 @@ There are some excellent references for computational methods out there. This co
 
 
 ## Course Outline
+
+*I'm currently revising the first 2 sessions, so check back nearer the date for details*
 
 ### Introduction, Logistics and Intro to Julia
 
@@ -217,7 +202,7 @@ ___
 
 ## Grading
 
-50% homeworks, 50% paper
+50% contribution to term project, 50% paper
 
 ## Statements on Plagiarism
 
@@ -234,7 +219,7 @@ Please respect the terms of use and/or license of any code you find, and if you 
 
 ## License
 
-In setting up this course I was heavily influenced - and shamelessly copied entire parts of - [https://github.com/advanced-js](https://github.com/advanced-js) taught by [Aidan Feldman](https://github.com/afeld) and team at NYU, and I would like to thankfully acknowledge making the materials useable to other teachers. The same license applies (below). The license allows you to copy and use everything here, under the condition that you attribute the work (details in the license). The copyright notice to be included in any such copies and other derivative work is:
+I took the setup for the structure of this course from [https://github.com/advanced-js](https://github.com/advanced-js) taught by [Aidan Feldman](https://github.com/afeld) and team at NYU, and I would like to thankfully acknowledge making the materials useable to other teachers. The same license applies (below). The coursepack material is based on [Chris Rackauckas' excellent Julia Intro](http://ucidatascienceinitiative.github.io/IntroToJulia/). The license allows you to copy and use everything here, under the condition that you attribute the work (details in the license). The copyright notice to be included in any such copies and other derivative work is:
 
 ```
 Copyright 2017 Florian Oswald, Sciences Po Paris, florian.oswald@gmail.com
