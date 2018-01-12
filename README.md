@@ -4,8 +4,8 @@
 
 * **Course:** Computational Economics for PhDs
 * **Teacher:** Florian Oswald, [florian.oswald@sciencespo.fr](mailto:florian.oswald@sciencespo.fr)
-* **Class Times:** tbc
-* **Class Location:** tbc
+* **Class Times:** 14:45-16:15
+* **Class Location:** Salle S11 - 13, rue de l'université
 * **Chatroom:** [![Join the chat at https://gitter.im/ScPo-CompEcon/Syllabus](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ScPo-CompEcon/Syllabus?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ## Course Description
@@ -20,18 +20,22 @@ In this course you will learn about some commonly used methods in Computational 
 
 True to that motto, there will be homeworks for you to try out what you learned in class. There will also be a term paper. It will be helpful to bring a laptop to the sessions if you have one.
 
-Topics will be demonstrated through live-code examples/slides, available at [ScPo-CompEcon.github.io/slides](http://ScPo-CompEcon.github.io/slides).  
+Topics will be demonstrated through live-code examples/slides, available at [https://scpo-compecon.github.io/CoursePack/](https://scpo-compecon.github.io/CoursePack/).  
 
 
 ## Prerequisites
 
 1. You need a laptop. No programming skills required.
-1. That said, we will follow a rather steep learning curve in terms of programming. If you followed Tyler Abbot's **introduction to programming** class last year, you should be all set. If you haven't, or would like a refresher, why not follow **introduction to programming** taught by Hugo Lhuillier this semester (staring January 2018)? I *warmly* recommend to attend this course if you did not sit Tyler's course.
+1. You must sign up for a free account at github.com.
+1. You must submit your solutions to the [git challenge](challenge.md) by January 31, the day before our first class.
+
+### Getting Programming Skills
+
+1. If you followed Tyler Abbot's **introduction to programming** class last year, you should be all set. If you haven't, or would like a refresher, why not follow **introduction to programming** taught by Hugo Lhuillier this semester (staring January 2018)? I *warmly* recommend to attend this course if you did not sit Tyler's course.
 1. We will be using [Julia](http://julialang.org/) for this course. Julia version `1.0` is planned for release early 2018, and depending on that release I will ask you to install a certain version of Julia. Stay tuned. If you have some programming experience in other languages, maybe this is interesting for you:
-    - [Noteworthy Differences from Other Languages](http://docs.julialang.org/en/release-0.6/manual/noteworthy-differences/)
-    - [Performance Tips](http://docs.julialang.org/en/release-0.6/manual/performance-tips/)
+    - [Noteworthy Differences from Other Languages](https://docs.julialang.org/en/stable/manual/noteworthy-differences/)
     - [MATLAB, Python, Julia Syntax Comparison](http://cheatsheets.quantecon.org/)
-1. Hugo in his course will introduce you to things like the [Unix Shell](https://en.wikipedia.org/wiki/Unix_shell) and the verion control system Git. Both of those are very useful - for this course, and for the rest of your life as a scientist. If you want to get a headstard, why not have a peek at those excellent tutorials:
+1. Hugo in his course will introduce you to things like the [Unix Shell](https://en.wikipedia.org/wiki/Unix_shell) and the verion control system Git. Both of those are very useful - for this course, and for the rest of your life as a scientist. If you want to get a headstart, why not have a peek at those excellent tutorials:
     1. [Software Carpentry: The Unix Shell](http://swcarpentry.github.io/shell-novice/): If you have never heard of unix, please go over the first three (very short) chapters:
         * chapters:
             * http://swcarpentry.github.io/shell-novice/01-intro/
@@ -41,8 +45,7 @@ Topics will be demonstrated through live-code examples/slides, available at [ScP
             * If you are on Mac OSX, go to Applications, Utilities, Terminal.
             * On Linux, I bet you know.
             * On Windows, you need to make up for the fact that you are not a Unixy system. I recommend [Gnu on Windows (GOW)](https://github.com/bmatzelle/gow/wiki)
-    1. [What is Version Control? 5 minute video.](http://git-scm.com/video/what-is-version-control)
-        * [Try Git on codeschool.org](https://try.github.io/levels/1/challenges/1): This is a 15 minute intro to Git. So cool!
+1. [What is Version Control? watch this 5 minute video.](http://git-scm.com/video/what-is-version-control)
 
 
 ## Homeworks
@@ -73,24 +76,11 @@ There are some excellent references for computational methods out there. This co
 
 ## Course Outline
 
-*I'm currently revising the first 2 sessions, so check back nearer the date for details*
+### Session 1
 
-### Introduction, Logistics and Intro to Julia
-
-1. Setup
-    * How many people are comfortable with Git/GitHub?
-    * Install [GitHub Desktop](https://desktop.github.com/)
-        * If you are comfortable with Git already, you can skip this.
-    * Sign up for GitHub
-1. GitHub workflow
-    * Walk through [workflow](#workflow)
-    * Create pull request on [students repository](https://github.com/ScPo-CompEcon/students)
 1. Explain how slides work
 1. Talk through [homework requirements](#homework-projects/requirements)
 1. Talk through [term paper requirements](#term-paper/requirements)
-1. Talk through [weapon of choice](#weapon-of-choice)
-
-#### Talk about Computation!
 1. Basic Computing concepts
     * The fundamental tradeoff: Speed vs Accuracy
     * Some numerical gotchas
@@ -103,8 +93,19 @@ There are some excellent references for computational methods out there. This co
 
 ___
 
+### Session 2: Continue with Intro to Julia
 
-### Session: Integration and Function Approximation
+* Arrays
+* Broadcast
+* Control Flow
+* Types
+* Intro to Plots.jl
+* Metaprogramming
+
+___
+
+
+### Session 3: Integration and Function Approximation
 
 1. Numerical Integration and Derivation
     * Monte-Carlo integration
@@ -123,47 +124,26 @@ ___
     * Multidimensional Approximation
         * The Smolyak Grid
 
-
-#### Homework
-
-* Fork the homework at [github.com/ScPo-CompEcon/HW-integration](https://github.com/ScPo-CompEcon/HW-integration)
-    * Follow steps detailed there.
-* Create a new repository on github for your term paper. 
-    * Choose a name, whether public of private and select the option to create a README.md file. clone.
-    * In the README.md file detail your project idea in a few words (more than 100 but less than 500). If you need math, include an IJulia notebook.
-    * If you decide to make this a private repository, you need to add me as a collaborator.
-    * push to github.
-    * email me the URL of the repo by the homework deadline (24h prior to next class.)
-
 ___
 
         
-### Session: Optimisation
-1. Unconstrained Optimisation
+### Session 4: Unconstrained Optimisation
     * Comparison Methods
     * Newton's Method
     * Line Search, Trust Region, and other Methods
     * Application: Maximum Likelihood
     * Introduce [http://www.juliaopt.org](http://www.juliaopt.org)
-1. Constrained Optimization
+
+___
+
+### Session 5: Constrained Optimisation
     * Theory
     * Some Numerical Methods for Constrained Optimization
 
 ___
-
         
 
-### Session: Constrained Optimisation Applications
-1. MPEC on John Rust's Bus Engine Replacement
-1. The Berry-Levinsohn-Pakes (BLP) paper as constrainted optimization problems
-
-
-#### Homework
-
-___
-        
-
-### Session: Numerical Dynamic Programming
+### Session 6: Numerical Dynamic Programming
 
 * Review of DP theory
 * Different Solution methods for different cases
@@ -172,37 +152,44 @@ ___
     * The Endogenous Grid Method
     * Finite time vs inifinite horizon models
 
-#### Homework
+___
+        
+
+### Session 7: Constrained Optimisation Applications as MPECs
+
+* What is an MPEC?
+* How can we cast constrained problems as MPECs?
+
+Applications:
+
+1. MPEC on John Rust's Bus Engine Replacement
+1. The Berry-Levinsohn-Pakes (BLP) paper as constrainted optimization problems
 
 ___
 
         
-### Session: Sky's the Limit - Parallel Computing in the Cloud
+### Session 8: Performant Julia, Parallel Julia and Julia in the Cloud
 
 * Brief intro to parallel computing concepts
 * Parallel computing with julia
-* (Free) Cloud computing via the [Github Student Developer Pack](https://education.github.com/pack/join)
 
-#### Homework
 
 ____
 
-### Session: More MPEC Applications
+### Session 9: Term Project
 
-* BLP as an MPEC as in Fox, Dube and Su
 
 ____
 
-### Session: Application to Discrete/Continuous Choice in Dynamic models
+### Session 10: Term Project
 
-* Ishkakov, Jorgensen, Rust and Schjerning
 
 ___
 
 
 ## Grading
 
-50% contribution to term project, 50% paper
+50% contribution to term project, 50% homeworks
 
 ## Statements on Plagiarism
 
@@ -222,7 +209,7 @@ Please respect the terms of use and/or license of any code you find, and if you 
 I took the setup for the structure of this course from [https://github.com/advanced-js](https://github.com/advanced-js) taught by [Aidan Feldman](https://github.com/afeld) and team at NYU, and I would like to thankfully acknowledge making the materials useable to other teachers. The same license applies (below). The coursepack material is based on [Chris Rackauckas' excellent Julia Intro](http://ucidatascienceinitiative.github.io/IntroToJulia/). The license allows you to copy and use everything here, under the condition that you attribute the work (details in the license). The copyright notice to be included in any such copies and other derivative work is:
 
 ```
-Copyright 2017 Florian Oswald, Sciences Po Paris, florian.oswald@gmail.com
+Copyright 2017, 2018 Florian Oswald, Sciences Po Paris, florian.oswald@gmail.com
 ```
 
 Thank you.
