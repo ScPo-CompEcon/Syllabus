@@ -1,4 +1,4 @@
-# ScPo-CompEcon Syllabus
+# ScPo-CompEcon Syllabus ![](ScPo.png)
 
 
 
