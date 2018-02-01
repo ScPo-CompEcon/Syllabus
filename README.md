@@ -4,9 +4,9 @@
 
 * **Course:** Computational Economics for PhDs
 * **Teacher:** Florian Oswald, [florian.oswald@sciencespo.fr](mailto:florian.oswald@sciencespo.fr)
-* **Class Times:** 14:45-16:15
-* **Class Location:** Salle S11 - 13, rue de l'université
-* **Chatroom:** [![Join the chat at https://gitter.im/ScPo-CompEcon/Syllabus](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ScPo-CompEcon/Syllabus?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+* **Class Times:** Thursdays 14:45-16:15
+* **Class Location:** Salle J205, 13 rue de l'université
+* **Slack**: You have an invitation for our [Slack group](scpo-compecon.slack.com) (ask me for one, if not!)
 
 ## Course Description
 
@@ -107,15 +107,11 @@ ___
 
 ### Session 3: Integration and Function Approximation
 
-1. Numerical Integration and Derivation
+1. Numerical Integration
     * Monte-Carlo integration
     * Gaussian Quadrature
     * Multidimensional Quadrature
         * Quadrature with correlated shocks
-    * Numerical Differentiation
-        * Finite Differences
-        * Automatic Differentiation
-        * [JuliaOpt/JuMP.jl](https://github.com/JuliaOpt/JuMP.jl)
 2. Function Approximation
     * Polynomial Interpolation
         * Basis functions and Coefficients
@@ -127,18 +123,22 @@ ___
 ___
 
         
-### Session 4: Unconstrained Optimisation
-    * Comparison Methods
-    * Newton's Method
-    * Line Search, Trust Region, and other Methods
-    * Application: Maximum Likelihood
-    * Introduce [http://www.juliaopt.org](http://www.juliaopt.org)
+### Session 4: Optimisation 1
+
+1. Intro
+2. Conditions for Optima
+3. Derivatives and Gradients
+4. Numerical Differentiation
+5. JuliaOpt
 
 ___
 
-### Session 5: Constrained Optimisation
-    * Theory
-    * Some Numerical Methods for Constrained Optimization
+### Session 5: Optimisation 2 
+
+1. Bracketing
+2. Local Descent
+3. First/Second Order and Direct Methods
+4. Constraints
 
 ___
         
