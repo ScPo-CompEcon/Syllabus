@@ -79,8 +79,8 @@ There are some excellent references for computational methods out there. This co
 ### Session 1
 
 1. Explain how slides work
-1. Talk through [homework requirements](#homework-projects/requirements)
-1. Talk through [term paper requirements](#term-paper/requirements)
+1. Talk through homework requirements
+1. Talk through term project requirements
 1. Basic Computing concepts
     * The fundamental tradeoff: Speed vs Accuracy
     * Some numerical gotchas
