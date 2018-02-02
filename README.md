@@ -91,6 +91,10 @@ There are some excellent references for computational methods out there. This co
 
 * Aruoba and Fernandez-Villaverde (2014) [A Comparison of Programming Languages in Economics](http://economics.sas.upenn.edu/~jesusfv/comparison_languages.pdf)
 
+#### Homework
+
+* [Make a pull request.](https://github.com/ScPo-CompEcon/Students)
+
 ___
 
 ### Session 2: Continue with Intro to Julia
