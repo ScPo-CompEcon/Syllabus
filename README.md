@@ -4,9 +4,9 @@
 
 * **Course:** Computational Economics for PhDs
 * **Teacher:** Florian Oswald, [florian.oswald@sciencespo.fr](mailto:florian.oswald@sciencespo.fr)
-* **Class Times:** Thursdays 14:45-16:15
-* **Class Location:** Salle J205, 13 rue de l'université
-* **Slack**: You have an invitation for our [Slack group](scpo-compecon.slack.com) (ask me for one, if not!)
+* **Class Times:** Mondays 10:15-12:15
+* **Class Location:** Salle 22, 27 RSG
+* **Slack**: I invited you to our [Slack group](https://scpocompecon.slack.com). Please sign up! 
 
 ## Course Description
 
@@ -27,15 +27,22 @@ Topics will be demonstrated through live-code examples/slides, available at [htt
 
 1. You need a laptop. No programming skills required.
 1. You must sign up for a free account at github.com.
-1. You must submit your solutions to the [git challenge](challenge.md) by January 31, the day before our first class.
+2. **Before** you come the first class, please do this:
+    1. Download the latest [stable `julia` release (`v1.0.3` as of today)](https://julialang.org/downloads/) for your OS.
+    2. Start `julia` by double-clicking on the relevant icon
+    3. In the `julia` console:
+        1. type `]` (switches into the Package Manager Mode)
+        2. type `add IJulia InstantiateFromURL` and hit `Enter`
+        3. type `using InstantiateFromURL` and hit `Enter`
+        4. type (or copy/paste) `activate_github("QuantEcon/QuantEconLectureAllPackages", tag = "v0.9.5", add_default_environment = true)`. Hitting `Enter` will download a bunch of packages and it will **compile** them for about 10 minutes. Let your computer just run.
 
 ### Getting Programming Skills
 
-1. If you followed Tyler Abbot's **introduction to programming** class last year, you should be all set. If you haven't, or would like a refresher, why not follow **introduction to programming** taught by Hugo Lhuillier this semester (staring January 2018)? I *warmly* recommend to attend this course if you did not sit Tyler's course.
-1. We will be using [Julia](http://julialang.org/) for this course. Julia version `1.0` is planned for release early 2018, and depending on that release I will ask you to install a certain version of Julia. Stay tuned. If you have some programming experience in other languages, maybe this is interesting for you:
+1. If you followed Hugo L'Huillier's **introduction to programming** class last year, you should be all set. If you haven't, or would like a refresher, why not follow **introduction to programming** taught by Clement Mazet this semester (staring January 2019)? I *warmly* recommend to attend this course if you did not sit Hugo's course.
+1. We will be using [Julia](http://julialang.org/) for this course. 
     - [Noteworthy Differences from Other Languages](https://docs.julialang.org/en/stable/manual/noteworthy-differences/)
     - [MATLAB, Python, Julia Syntax Comparison](http://cheatsheets.quantecon.org/)
-1. Hugo in his course will introduce you to things like the [Unix Shell](https://en.wikipedia.org/wiki/Unix_shell) and the verion control system Git. Both of those are very useful - for this course, and for the rest of your life as a scientist. If you want to get a headstart, why not have a peek at those excellent tutorials:
+1. Clement in his course will introduce you to things like the [Unix Shell](https://en.wikipedia.org/wiki/Unix_shell) and the verion control system Git. Both of those are very useful - for this course, and for the rest of your life as a scientist. If you want to get a headstart, why not have a peek at those excellent tutorials:
     1. [Software Carpentry: The Unix Shell](http://swcarpentry.github.io/shell-novice/): If you have never heard of unix, please go over the first three (very short) chapters:
         * chapters:
             * http://swcarpentry.github.io/shell-novice/01-intro/
@@ -55,12 +62,12 @@ There will be homeworks. They will be listed within the [Course Outline](#course
 
 ## Term Project
 
-This year we will try and implement a prototype for a new course allocation algorithm for SciencesPo students. There was a task force on this last year to work on a solution, and they came up with a workable algorithm. Despite the theory being available, the computational problem to actually **compute** the allocation remains formidable (it will have to make use of distributed computation across many computers in the end). We will have a crack at it. This is a class-wide project to which we are all going to contribute to. Real-world open source software development in your classroom!   
+We will try and further develop a prototype for a new course allocation algorithm for SciencesPo students. There was a task force on this 2 years ago to work on a solution, and they came up with a workable algorithm. Last year's `CompEcon` class developed a [prototype implemetnation](https://github.com/ScPo-CompEcon/CourseMatch.jl). This year we will try to complete what we started with last year!  
 (:wrench:, :muscle:, :tada:) `=>` (acquire the tools, do the work, tada!)
 
 ### details
 
-You will work in teams of 2. Details tbc.
+You will work in teams of 2/3. Details tbc.
   
 
 ## Textbooks
@@ -69,47 +76,40 @@ There are some excellent references for computational methods out there. This co
 
 * **Fackler and Miranda** (2002), Applied Computational Economics and Finance, MIT Press
 * **Kenneth Judd** (1998), Numerical Methods in Economics, MIT Press
-* Nocedal, Jorge, and Stephen J. Wright (2006): Numerical Optimization, Springer-Verlag
+* **Nocedal, Jorge, and Stephen J. Wright** (2006): Numerical Optimization, Springer-Verlag
+* [**Kochenderfer and Wheeler**](https://mitpress.mit.edu/books/algorithms-optimization) (2019), Algorithms for Optimization, MIT Press
 
-(recommended ones in bold face)
 
+## Course Schedule
 
-## Course Outline
+### 1. Programming languages and why `julia`
 
-### Session 1
-
-1. Explain how slides work
 1. Talk through homework requirements
 1. Talk through term project requirements
-1. Basic Computing concepts
-    * The fundamental tradeoff: Speed vs Accuracy
-    * Some numerical gotchas
-    * Computer Basics
-    * Intro to `Julia`
-
-#### Reading
-
-* Aruoba and Fernandez-Villaverde (2014) [A Comparison of Programming Languages in Economics](http://economics.sas.upenn.edu/~jesusfv/comparison_languages.pdf)
-
+1. Show where material is and do first set of slides.
+    
 #### Homework
 
+* Sign up to github.com.
+* Sign up for [introduction to github](https://lab.github.com/githubtraining/introduction-to-github) and send me a screenshot of all completed issues.
 * [Make a pull request.](https://github.com/ScPo-CompEcon/Students)
 
 ___
 
-### Session 2: Continue with Intro to Julia
+### 2. `julia` setup and Getting Started
 
-* Arrays
-* Broadcast
-* Control Flow
+* Setup environment
+* Tools and Editors
+* Examples
 * Types
-* Intro to Plots.jl
-* Metaprogramming
+* Essentials
+* Speed
+* Data and Statistical Packages
 
 ___
 
 
-### Session 3: Integration and Function Approximation
+### 3. Integration and Function Approximation
 
 1. Numerical Integration
     * Monte-Carlo integration
@@ -126,8 +126,7 @@ ___
 
 ___
 
-        
-### Session 4: Optimisation 1
+### 4. Optimisation 1
 
 1. Intro
 2. Conditions for Optima
@@ -137,7 +136,7 @@ ___
 
 ___
 
-### Session 5: Optimisation 2 
+### 5. Optimisation 2 
 
 1. Bracketing
 2. Local Descent
@@ -145,9 +144,9 @@ ___
 4. Constraints
 
 ___
-        
 
-### Session 6: Numerical Dynamic Programming
+
+### 6. Numerical Dynamic Programming
 
 * Review of DP theory
 * Different Solution methods for different cases
@@ -155,11 +154,12 @@ ___
     * Parametric approximation methods [basically Function Approximation](#Function-Approximation)
     * The Endogenous Grid Method
     * Finite time vs inifinite horizon models
++ Solving the Growth Model in 7 Different ways
 
 ___
-        
 
-### Session 7: Constrained Optimisation Applications as MPECs
+
+### 7. Constrained Optimisation Applications as MPECs
 
 * What is an MPEC?
 * How can we cast constrained problems as MPECs?
@@ -172,20 +172,31 @@ Applications:
 ___
 
         
-### Session 8: Performant Julia, Parallel Julia and Julia in the Cloud
+### 8. HPC `julia`
 
 * Brief intro to parallel computing concepts
 * Parallel computing with julia
+* GPU computing with julia
 
 
 ____
 
-### Session 9: Term Project
+### 9. Solving the McCall Search Model
 
 
 ____
 
-### Session 10: Term Project
+### 10. Term Project
+
+
+___
+
+### 11. Term Project
+
+
+___
+
+### 12. Term Project
 
 
 ___
@@ -213,7 +224,7 @@ Please respect the terms of use and/or license of any code you find, and if you 
 I took the setup for the structure of this course from [https://github.com/advanced-js](https://github.com/advanced-js) taught by [Aidan Feldman](https://github.com/afeld) and team at NYU, and I would like to thankfully acknowledge making the materials useable to other teachers. The same license applies (below). The coursepack material is based on [Chris Rackauckas' excellent Julia Intro](http://ucidatascienceinitiative.github.io/IntroToJulia/). The license allows you to copy and use everything here, under the condition that you attribute the work (details in the license). The copyright notice to be included in any such copies and other derivative work is:
 
 ```
-Copyright 2017, 2018 Florian Oswald, Sciences Po Paris, florian.oswald@gmail.com
+Copyright 2019 Florian Oswald, Sciences Po Paris, florian.oswald@gmail.com
 ```
 
 Thank you.
