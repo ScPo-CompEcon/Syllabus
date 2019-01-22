@@ -4,7 +4,7 @@
 
 * **Course:** Computational Economics for PhDs
 * **Teacher:** Florian Oswald, [florian.oswald@sciencespo.fr](mailto:florian.oswald@sciencespo.fr)
-* **Class Times:** Mondays 10:15-12:15
+* **Class Times:** Mondays 10:15-12:15 starting 28 Jan 2019
 * **Class Location:** Salle 22, 27 RSG
 * **Slack**: I invited you to our [Slack group](https://scpocompecon.slack.com). Please sign up! 
 
