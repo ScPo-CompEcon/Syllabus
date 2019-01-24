@@ -34,7 +34,8 @@ Topics will be demonstrated through live-code examples/slides, available at [htt
         1. type `]` (switches into the Package Manager Mode)
         2. type `add IJulia InstantiateFromURL` and hit `Enter`
         3. type `using InstantiateFromURL` and hit `Enter`
-        4. type (or copy/paste) `activate_github("QuantEcon/QuantEconLectureAllPackages", tag = "v0.9.5", add_default_environment = true)`. Hitting `Enter` will download a bunch of packages and it will **compile** them for about 10 minutes. Let your computer just run.
+        4. type (or copy/paste) `activate_github("QuantEcon/QuantEconLectureAllPackages", tag = "v0.9.5", add_default_environment = true)`. Hitting `Enter` will download a bunch of packages.
+        5. type `]` and then `precompile` and hit `Enter`. This will **compile** for about 10 minutes. Let your computer just run.
 
 ### Getting Programming Skills
 
