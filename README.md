@@ -79,6 +79,7 @@ There are some excellent references for computational methods out there. This co
 * **Kenneth Judd** (1998), Numerical Methods in Economics, MIT Press
 * **Nocedal, Jorge, and Stephen J. Wright** (2006): Numerical Optimization, Springer-Verlag
 * [**Kochenderfer and Wheeler**](https://mitpress.mit.edu/books/algorithms-optimization) (2019), Algorithms for Optimization, MIT Press
+* [**A Gentle Introduction to Effective Computing in Quantitative Research**](https://mitpress.mit.edu/books/gentle-introduction-effective-computing-quantitative-research) - What Every Research Assistant Should Know, Harry J. Paarsch and Konstantin Golyaev
 
 
 ## Course Schedule
@@ -94,6 +95,10 @@ There are some excellent references for computational methods out there. This co
 * Sign up to github.com.
 * Sign up for [introduction to github](https://lab.github.com/githubtraining/introduction-to-github) and send me a screenshot of all completed issues.
 * [Make a pull request.](https://github.com/ScPo-CompEcon/Students)
+
+#### Optional Julia Workouts
+
+* [https://exercism.io/](https://exercism.io/) offers some simple coding exercises. I highly recommend those if you want to get some extra practice - particularly in the beginning!
 
 ___
 
