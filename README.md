@@ -28,7 +28,7 @@ Topics will be demonstrated through live-code examples/slides, available at [htt
 1. You need a laptop. No programming skills required.
 1. You must sign up for a free account at github.com.
 2. **Before** you come the first class, please do this:
-    1. Download the latest [stable `julia` release (`v1.0.3` as of today)](https://julialang.org/downloads/) for your OS.
+    1. Download the latest [stable `julia` release (`v1.1` as of today)](https://julialang.org/downloads/) for your OS.
     2. Start `julia` by double-clicking on the relevant icon
     3. In the `julia` console:
         1. type `]` (switches into the Package Manager Mode)
