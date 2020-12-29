@@ -4,9 +4,9 @@
 
 * **Course:** Computational Economics for PhDs
 * **Teacher:** Florian Oswald, [florian.oswald@sciencespo.fr](mailto:florian.oswald@sciencespo.fr)
-* **Class Times:** Mondays 10:15-12:15 starting 28 Jan 2019
-* **Class Location:** Salle 605, 199 Boulevard Saint Germain
-* **Slack**: I invited you to our [Slack group](https://scpocompecon.slack.com). Please sign up! 
+* **Class Times:** Fridays 10:15-12:15 starting 29 Jan 2021
+* **Class Location:** Zoom
+* **Slack**: There will be a slack channel for all communication
 
 ## Course Description
 
@@ -25,35 +25,21 @@ Topics will be demonstrated through live-code examples/slides, available at [htt
 
 ## Prerequisites
 
-1. You need a laptop. No programming skills required.
-1. You must sign up for a free account at github.com.
-2. **Before** you come the first class, please do this:
-    1. Download the latest [stable `julia` release (`v1.1` as of today)](https://julialang.org/downloads/) for your OS.
-    2. Start `julia` by double-clicking on the relevant icon
-    3. In the `julia` console:
-        1. type `]` (switches into the Package Manager Mode)
-        2. type `add IJulia InstantiateFromURL` and hit `Enter`
-        3. type `using InstantiateFromURL` and hit `Enter`
-        4. type (or copy/paste) `activate_github("QuantEcon/QuantEconLectureAllPackages", tag = "v0.9.5", add_default_environment = true)`. Hitting `Enter` will download a bunch of packages.
-        5. type `]` and then `precompile` and hit `Enter`. This will **compile** for about 10 minutes. Let your computer just run.
+1. You need a laptop. 
+1. You should be familiar with the material from *Introduction to Programming*  taught by Clement Mazet in M1. Check out the materials [here](https://cms27.github.io/teaching/)
+1. You must sign up for a free account at github.com. Choose a reasonable user name and upload a profile picture.
+1. **Before** you come the first class, please do this:
+    1. Download the latest [stable `julia` release](https://julialang.org/downloads/) for your OS.
+    1. Download the [`VSCode Editor`](https://code.visualstudio.com)
 
 ### Getting Programming Skills
 
-1. If you followed Hugo L'Huillier's **introduction to programming** class last year, you should be all set. If you haven't, or would like a refresher, why not follow **introduction to programming** taught by Clement Mazet this semester (staring January 2019)? I *warmly* recommend to attend this course if you did not sit Hugo's course.
+1. Check out [Clement Mazet's materials](https://cms27.github.io/teaching/). You must know this level.
 1. We will be using [Julia](http://julialang.org/) for this course. 
     - [Noteworthy Differences from Other Languages](https://docs.julialang.org/en/stable/manual/noteworthy-differences/)
     - [MATLAB, Python, Julia Syntax Comparison](http://cheatsheets.quantecon.org/)
-1. Clement in his course will introduce you to things like the [Unix Shell](https://en.wikipedia.org/wiki/Unix_shell) and the verion control system Git. Both of those are very useful - for this course, and for the rest of your life as a scientist. If you want to get a headstart, why not have a peek at those excellent tutorials:
-    1. [Software Carpentry: The Unix Shell](http://swcarpentry.github.io/shell-novice/): If you have never heard of unix, please go over the first three (very short) chapters:
-        * chapters:
-            * http://swcarpentry.github.io/shell-novice/01-intro/
-            * http://swcarpentry.github.io/shell-novice/02-filedir/
-            * http://swcarpentry.github.io/shell-novice/03-create/
-        * Where is my Shell Terminal?
-            * If you are on Mac OSX, go to Applications, Utilities, Terminal.
-            * On Linux, I bet you know.
-            * On Windows, you need to make up for the fact that you are not a Unixy system. I recommend [Gnu on Windows (GOW)](https://github.com/bmatzelle/gow/wiki)
-1. [What is Version Control? watch this 5 minute video.](http://git-scm.com/video/what-is-version-control)
+1. Clement in his course will introduce you to things like the [Unix Shell](https://en.wikipedia.org/wiki/Unix_shell) and the verion control system Git. Both of those are very useful - for this course, and for the rest of your life as a scientist. 
+1. [What is Version Control? watch this 5 minute video.](http://git-scm.com/video/what-is-version-control) and go back to Clement's stuff if unclear.
 
 
 ## Homeworks
@@ -63,12 +49,20 @@ There will be homeworks. They will be listed within the [Course Outline](#course
 
 ## Term Project
 
-We will try and further develop a prototype for a new course allocation algorithm for SciencesPo students. There was a task force on this 2 years ago to work on a solution, and they came up with a workable algorithm. Last year's `CompEcon` class developed a [prototype implemetnation](https://github.com/ScPo-CompEcon/CourseMatch.jl). This year we will try to complete what we started with last year!  
-(:wrench:, :muscle:, :tada:) `=>` (acquire the tools, do the work, tada!)
+This year your term project will be to replicate a paper published in an economics journal. Ideally this would be related to your field of interest. The requirements for choice of paper to replicate are:
 
-### details
+1. Published version and replication kit is available online.
+2. The paper to replicate must not use julia.
+3. You must use julia for your replication.
+    * Ideally your choice will involve at least some level of computational interest (i.e. more than an IV regression)
+    * However, you can replicate a paper with an IV regression, but you have to go all the way to get the exact same results as in the paper. I.e. if the author typed the stata command `ivreg2 lw s expr tenure rns smsa _I* (iq=med kww age), cluster(year)` you will have to write (or find) julia code which will match all output from this, including standard errors. I do not recommend to do this.
+4. You need to set up a public github repository where you will build a documentation website of your implementation. You'll learn how to do this in the course.
+5. I encourage you to let the world know about your replication effort via social media and/or email to the authors directly. This is independent of whether you were able or not to replicate the results. Replication is not about finding errors in other peoples' work. If you are able to replicate some result in julia, this may be very interesting for others.
 
-You will work in teams of 2/3. Details tbc.
+## Grade
+
+Your grade will be 60% homeworks, 40% term project.
+
   
 
 ## Textbooks
@@ -187,30 +181,27 @@ ___
 
 ____
 
-### 9. Solving the McCall Search Model
+### 9. Rust Bus Model
 
 
 ____
 
-### 10. Term Project
+### 10. Intro to Machine Learning with julia
 
 
 ___
 
-### 11. Term Project
+### 11. The julia ML stack
 
 
 ___
 
-### 12. Term Project
+### 12. julia ML applications
 
 
 ___
 
 
-## Grading
-
-50% contribution to term project, 50% homeworks
 
 ## Statements on Plagiarism
 
@@ -230,7 +221,7 @@ Please respect the terms of use and/or license of any code you find, and if you 
 I took the setup for the structure of this course from [https://github.com/advanced-js](https://github.com/advanced-js) taught by [Aidan Feldman](https://github.com/afeld) and team at NYU, and I would like to thankfully acknowledge making the materials useable to other teachers. The same license applies (below). The coursepack material is based on [Chris Rackauckas' excellent Julia Intro](http://ucidatascienceinitiative.github.io/IntroToJulia/). The license allows you to copy and use everything here, under the condition that you attribute the work (details in the license). The copyright notice to be included in any such copies and other derivative work is:
 
 ```
-Copyright 2019 Florian Oswald, Sciences Po Paris, florian.oswald@gmail.com
+Copyright 2020 Florian Oswald, Sciences Po Paris, florian.oswald@gmail.com
 ```
 
 Thank you.
