@@ -1,3 +1,7 @@
+
+**Caution**: this document is out of date. please consult the up to date version at [https://floswald.github.io/NumericalMethods/](https://floswald.github.io/NumericalMethods/)
+
+
 # ScPo-CompEcon Syllabus ![](ScPo.png)
 
 
