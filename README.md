@@ -6,11 +6,16 @@
 
 
 
+**Caution**: this document is out of date. please consult the up to date version at [https://floswald.github.io/NumericalMethods/](https://floswald.github.io/NumericalMethods/)
+
+
 * **Course:** Computational Economics for PhDs
 * **Teacher:** Florian Oswald, [florian.oswald@sciencespo.fr](mailto:florian.oswald@sciencespo.fr)
 * **Class Times:** Fridays 10:15-12:15 starting 29 Jan 2021
 * **Class Location:** Zoom
 * **Slack**: There will be a slack channel for all communication
+
+**Caution**: this document is out of date. please consult the up to date version at [https://floswald.github.io/NumericalMethods/](https://floswald.github.io/NumericalMethods/)
 
 ## Course Description
 
